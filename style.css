@@ -1,0 +1,209 @@
+@font-face {
+    font-family: Overpass;
+    src: url(Overpass-SemiBold.ttf);
+}
+
+@media(max-width: 1440px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Overpass;
+        font-size: 16px;
+    }
+    .company-name {
+        font-size: 50px;
+        font-weight: 600;
+        color: white;
+    }
+    header {
+        margin: 50px 150px 0px;
+        position: relative;
+        z-index: 50;
+    }
+    ul {
+        float: left;
+        list-style-type: none;
+        position: relative;
+        left: 100px;
+        bottom: 38px;
+    }
+    ul li {
+        display: inline-block;
+        padding: 0px;
+        margin-left: 100px;
+    }
+    ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+    .shape {
+        height: 600px;
+        width: 1440px;
+        border-bottom-left-radius: 80px;
+        background-image: url(./images/bg-pattern-intro.svg), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+        background-position: center left;
+        position: relative;
+        bottom: 120px;
+        z-index: 10;
+    }
+    .button {
+        float: right;
+        position: relative;
+        bottom: 38px;
+    }
+    .btn {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-weight: 600;
+    }
+    .btn1 {
+        color: hsl(353, 100%, 62%);
+        padding: 10px 35px;
+        background-color: white;
+        border-radius: 50px;
+    }
+    .shape h2 {
+        color: white;
+        font-size: 45px;
+        font-weight: 400;
+        z-index: 60;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .shape h4 {
+        color: white;
+        font-size: 20px;
+        font-weight: normal;
+        z-index: 60;
+        position: absolute;
+        top: 53%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .button1 {
+        z-index: 60;
+        position: absolute;
+        top: 66%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .main1 {
+        margin: 25px 150px;
+        position: relative;
+    }
+    h3 {
+        color: hsl(208, 49%, 24%);
+        font-size: 35px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .main1 img {
+        position: relative;
+        left: 65%;
+        position: relative;
+        bottom: 400px;
+        bottom: 150px;
+    }
+    h4 {
+        color: hsl(208, 49%, 24%);
+        font-size: 25px;
+        font-weight: lighter;
+    }
+    p {
+        height: 50%;
+        width: 50%;
+        word-spacing: 2px;
+        line-height: 1.8;
+        font-weight: lighter;
+        color: hsl(207, 13%, 34%);
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .article1 {
+        position: relative;
+        bottom: 800px;
+    }
+    .article2 {
+        position: relative;
+        bottom: 725px;
+    }
+    .shape1 {
+        height: 400px;
+        width: 1440px;
+        margin: 25px 0px;
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+        background-image: url(./images/bg-pattern-circles.svg), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+        background-position: bottom -50px right 10px;
+        position: relative;
+        bottom: 400px;
+    }
+    .shape1 img {
+        position: relative;
+        bottom: 80px;
+    }
+    .shape1 article {
+        position: relative;
+        bottom: 450px;
+        left: 50%;
+    }
+    .shape1 article h4 {
+        color: white;
+    }
+    .shape1 article p {
+        color: thistle;
+    }
+    .shape2 img {
+        position: relative;
+        right: 19%;
+        bottom: 250px;
+    }
+    .shape2 article {
+        position: relative;
+        left: 50%;
+        bottom: 830px;
+    }
+    .shape3 {
+        height: 400px;
+        width: 1440px;
+        border-top-right-radius: 80px;
+        background-color: hsl(240, 10%, 16%);
+        position: relative;
+        margin-top: -300px;
+    }
+    .shape3 h3 {
+        font-weight: 600;
+        color: white;
+        float: left;
+        margin: 100px 0px 0px 150px;
+    }
+    .shape3 article h1 {
+        color: white;
+        font-size: 16px;
+    }
+    .shape3 p {
+        color: thistle;
+        font-size: 14px;
+        padding: -20px;
+        margin: 8px 0px;
+    }
+    .a1 {
+        position: absolute;
+        top: 120px;
+        left: 30%;
+    }
+    .a2 {
+        position: absolute;
+        top: 120px;
+        left: 50%;
+    }
+    .a3 {
+        position: absolute;
+        top: 120px;
+        left: 70%;
+    }
+}
