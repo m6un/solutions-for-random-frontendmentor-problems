@@ -1,0 +1,6 @@
+    @media(max-width: 1440px) {
+        .shape1 img {
+            position: absolute;
+            margin-top: -500px;
+        }
+    }
