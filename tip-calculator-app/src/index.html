@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Tip calculator app</title>
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <section>
+                <div class="wrapper">
+                    <label for="Bill" class="lbl">
+                      Bill
+                    </label>
+                    <div class="input-box1">
+                        <span>$</span>
+                        <input type="number" value="0" id="bill" class="val">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="wrapper">
+                    <label for="Select tip %" class="lbl">
+                      Select tip %
+                    </label>
+                </div>
+            </section>
+            <section>
+                <div class="wrapper">
+                    <section>
+                        <div class="wrapper1">
+                            <button id="btn1" class="btn1" value="5">
+                      5%
+                    </button>
+                            <button id="btn2" class="btn1 active" value="10">
+                      10%
+                    </button>
+                            <button id="btn4" class="btn1" value="15"> 
+                      15%
+                    </button>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="wrapper1">
+                            <button id="btn5" class="btn1" value="25">
+                      25%
+                    </button>
+                            <button id="btn6" class="btn1" value="50">
+                      50%
+                    </button>
+                            <div class="input-box2">
+                                <input type="text" value="Custom" id="custom" class="Custom">
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="wrapper">
+                            <label for="Number of People" class="lbl">
+                    Number of People
+                  </label>
+                            <label for="" class="errorIfZero"></label>
+                            <div class="input-box3">
+                                <img src="images/icon-person.svg" alt="">
+                                <input type="number" value="0" id="number-of-people" class="val">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+        </div>
+        <div class="container2">
+            <section>
+                <span class="Tip-amount">
+                    Tip Amount 
+                </span>
+                <span id='Tip-amount'>
+                    $ 0
+                </span>
+                <br>
+                <span class="per-person">
+                    / person 
+                </span>
+
+            </section>
+            <section>
+                <span class="Total">
+                    Total
+                </span>
+                <span id='Total'>
+                    $ 0
+                </span>
+                <br>
+                <span class="per-person">
+                    / person 
+                </span>
+
+            </section>
+
+            <button id="btn7" class="inactive">
+                RESET
+            </button>
+
+
+        </div>
+
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/m6un">Midhun Chandran</a>.
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
